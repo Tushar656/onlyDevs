@@ -1,0 +1,44 @@
+.Slider{
+    width: 100vw;
+    height: 400px;
+    z-index: -1;
+    margin-top: 20px;
+}
+.slides{
+    width: 100%;
+    height: 100%;
+    /* background: url("../../../public/Assets/books.jpg"); */
+    /* object-fit: cover; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slides img{
+    width: 93%;
+    height: 100%;
+    object-fit: cover;
+    /* opacity: 0.8; */
+    filter: brightness(70%);
+    border-radius: 20px;
+}
+
+.Sliders{
+    margin: auto;
+    margin-top: 20px;
+    width: 94%;
+    align-self: center;
+    border-radius: 20px;
+}
+.Sliders .SliderimageClass{
+    height: 300px;
+    object-fit: cover;
+    filter: brightness(70%);
+    width: 92%;
+    border-radius: 20px;
+}
+.carousel-indicators button{
+    background-color: white;
+}
+.carousel-inner{
+    border-radius: 20px;
+}

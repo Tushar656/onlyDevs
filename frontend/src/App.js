@@ -1,11 +1,14 @@
+import BuyItems from "./components/BuyItems/BuyItems";
+import Slider from "./components/Sliders/Slider";
 import Topbar from "./components/topbar/Topbar";
 import Register from "./Pages/Register/Register";
 
 function App() {
   return (
     <div className="App">
-      <Register />
-      {/* <Topbar/> */}
+      <Topbar/>
+      <Slider/>
+      <BuyItems/>
     </div>
   );
 }
