@@ -1,0 +1,114 @@
+.Register{
+    height: 100vh;
+    font-family: 'Vazirmatn', sans-serif;
+    margin: 0;
+    padding: 0%;
+    background-color: rgb(187, 224, 231);
+    /* background: url("background.jpg"); */
+}
+.company > h3,h1{
+    margin: 0%;
+    padding: 10px;
+}
+.create >h1{
+    /* background-color: antiquewhite; */
+    border-radius: 10px;
+    margin: 0%;
+    padding: 0%;
+}
+.link-register{
+    text-decoration: none;
+}
+p{
+    margin: 0%;
+    padding: 0%;
+}
+.input-register{
+    font-size: medium;
+    width: 100%;
+    outline: 0ch;
+    border: 0ch;
+    background-color: antiquewhite;
+}
+ .button-submit{
+    cursor: pointer;
+    font-size:large;
+    background-color:#69a6ec;
+    border-radius: 20px;
+    border: 0cm;
+    margin: 30px auto;
+    height: 5vh;
+    width: 10vw;
+}
+.button-submit:hover{
+    font-size: larger;
+    border: 3px solid;
+    border-color: aquamarine;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.company{
+    box-shadow: 3px 0px 15px 1px #69a6ec;
+    /* background-color:antiquewhite ; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 20px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.create{
+    padding: 20px;
+    border-radius: 50px;
+    /* background-color: rgb(174, 240, 252); */
+    margin: 10vh 0 0vh 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+.names{
+    font-size: smaller;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.name{
+    font-weight:bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 30px;
+}
+.email{
+    font-size: smaller;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 30px;
+}
+.quotes{
+    border-radius: 50px;
+    padding: 20px;
+    height: 50vh;
+    width: auto;
+    margin: 15vh 0 0vh 8vw;
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction: column;
+    word-spacing: 2px;
+    line-height: 40px;
+}
