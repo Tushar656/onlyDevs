@@ -1,27 +1,22 @@
 .Register{
-    height: 100vh;
-    font-family: 'Vazirmatn', sans-serif;
-    margin: 0;
-    padding: 0%;
+    display: flex;
+    flex-direction: column;
     background-color: rgb(187, 224, 231);
-    /* background: url("background.jpg"); */
+    font-family: 'Vazirmatn', sans-serif;
+    height: 100vh;
 }
-.company > h3,h1{
-    margin: 0%;
-    padding: 10px;
+.company-heading{
+    padding: 5px;
 }
-.create >h1{
-    /* background-color: antiquewhite; */
-    border-radius: 10px;
-    margin: 0%;
-    padding: 0%;
+.company-heading-h1{
+    color: rgb(254, 136, 136);
 }
+
 .link-register{
     text-decoration: none;
 }
-p{
-    margin: 0%;
-    padding: 0%;
+.link-register:hover{
+    text-decoration: underline;
 }
 .input-register{
     font-size: medium;
@@ -33,12 +28,14 @@ p{
  .button-submit{
     cursor: pointer;
     font-size:large;
-    background-color:#69a6ec;
-    border-radius: 20px;
+    background-color:#6fa3f2;
+    border-radius: 10px;
+    margin-top: 3px;
+    margin-bottom: 0%;
     border: 0cm;
-    margin: 30px auto;
-    height: 5vh;
-    width: 10vw;
+    width: 50%;
+    height: 50px;
+    margin-left: 80px;
 }
 .button-submit:hover{
     font-size: larger;
@@ -46,39 +43,41 @@ p{
     border-color: aquamarine;
 }
 .main{
+    height: 100%;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    padding:5%;
 }
 .company{
+    height: 60px;
     box-shadow: 3px 0px 15px 1px #69a6ec;
-    /* background-color:antiquewhite ; */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2px 20px;
+    padding: 1px 20px;
     font-family: 'Shadows Into Light', cursive;
 }
 .create{
-    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 50px;
-    /* background-color: rgb(174, 240, 252); */
-    margin: 10vh 0 0vh 10vw;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex:5;
 }
 .inputs{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .names{
     font-size: smaller;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
 }
 .name{
+    width: 40%;
     font-weight:bold;
     display: flex;
     justify-content: center;
@@ -86,7 +85,7 @@ p{
     background-color: antiquewhite;
     padding: 10px;
     margin: 2px;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 .email{
     font-size: smaller;
@@ -97,18 +96,23 @@ p{
     background-color: antiquewhite;
     padding: 10px;
     margin: 10px 0px;
-    border-radius: 30px;
+    border-radius: 20px;
+    width: 80%;
 }
 .quotes{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 50px;
     padding: 20px;
-    height: 50vh;
     width: auto;
-    margin: 15vh 0 0vh 8vw;
     display: flex;
+    flex:7;
     justify-content:center;
     align-items:flex-start;
     flex-direction: column;
-    word-spacing: 2px;
-    line-height: 40px;
+    word-spacing: 8px;
+    line-height: 50px;
+    list-style:circle;
+}
+.heading-quotes{
+    color: rgb(254, 136, 136);
 }
