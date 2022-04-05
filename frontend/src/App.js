@@ -2,13 +2,16 @@ import BuyItems from "./components/BuyItems/BuyItems";
 import Slider from "./components/Sliders/Slider";
 import Topbar from "./components/topbar/Topbar";
 import Register from "./Pages/Register/Register";
+import Login from "./Pages/Login/Login"
 
 function App() {
   return (
     <div className="App">
-      <Topbar/>
+      {/* <Topbar/>
       <Slider/>
-      <BuyItems/>
+      <BuyItems/> */}
+      {/* <Register /> */}
+      <Login />
     </div>
   );
 }
