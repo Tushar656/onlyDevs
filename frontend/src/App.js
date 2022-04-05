@@ -9,6 +9,7 @@ function App() {
       <Topbar/>
       <Slider/>
       <BuyItems/>
+      {/* <Register/> */}
     </div>
   );
 }

@@ -9,6 +9,12 @@ export default function BuyItems() {
       <BuyItem/>
       <BuyItem/>
       <BuyItem/>
+      <BuyItem/>
+      <BuyItem/>
+      <BuyItem/>
+      <BuyItem/>
+      <BuyItem/>
+      <BuyItem/>
     </div>
   )
 }

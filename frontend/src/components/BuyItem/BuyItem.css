@@ -1,8 +1,20 @@
 .BuyItem{
     width: 20%;
-    height: 440px;
+    padding: 5px;
+    height: 300px;
     border-radius: 20px;
-    background-color: rgb(139, 157, 173);
+    background-color: rgb(187 224 231);
     margin: 10px;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
 
+}
+
+.BuyItem img{
+    width: 100%;
+    border-radius: 20px;
+}
+.BuyItem h3{
+    margin-top: 10px;
 }
