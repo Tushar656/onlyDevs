@@ -1,0 +1,115 @@
+body{
+    margin: 0%;
+}
+/* .login-heading{
+    font-size:xxx-large;
+} */
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(175, 175, 178, 0.51);
+}
+.signup-req{
+    margin-bottom: 15%;
+}
+.signup-req > a{
+    text-decoration: none;
+    color: rgb(239, 149, 32);
+}
+.signup-req > a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.login-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 90vh;
+    width: 80vw;
+}
+.login-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(92, 96, 104, 0.51);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 100%;
+    width: 50%;
+    background-color:white;
+}
+.login-detail-left{
+    height: 80%;
+    width: 20rem;
+}
+.login-detail-left > h1{
+    color: black;
+}
+.login-pic{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(248, 198, 133);
+}
+.inputs-login{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0px;
+}
+
+.input-email{
+    margin: 10px 0px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction:column;
+    height:3.4rem;
+    width: 20rem;
+    border-radius: 3px;
+}
+.input-email:hover{
+    border: 2px solid rgba(255, 136, 0, 0.628);
+    font-weight: bold;
+}
+.input-email > input{
+    margin-left: 5px;
+    outline: 0px;
+    text-decoration: none;
+    border: 0px;
+}
+.login-button{
+    margin:30px 0px;
+    cursor: pointer;
+    font-size:large;
+    height: 3rem;
+    width: 20rem;
+    color: white;
+    background-color: rgb(248, 198, 133);
+    border-radius: 8px;
+    border: 0px;
+}
+.login-button:hover{
+    font-size: larger;
+    border: 1px solid black;
+}
+.login-pic{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-quotes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+}
+.quotes-text{
+    font-size: larger;
+}
