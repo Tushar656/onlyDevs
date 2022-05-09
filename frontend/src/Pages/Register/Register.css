@@ -1,118 +1,119 @@
+body{
+    margin: 0%;
+}
+/* .register-heading{
+    font-size:xxx-large;
+} */
 .Register{
     display: flex;
-    flex-direction: column;
-    background-color: rgb(187, 224, 231);
-    font-family: 'Vazirmatn', sans-serif;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
+    width: 100vw;
+    background-color: rgba(175, 175, 178, 0.51);
 }
-.company-heading{
-    padding: 5px;
+.signup-req{
+    margin-bottom: 15%;
 }
-.company-heading-h1{
-    color: rgb(254, 136, 136);
-}
-
-.link-register{
+.signup-req > a{
     text-decoration: none;
+    color: rgb(239, 149, 32);
 }
-.link-register:hover{
+.signup-req > a:hover{
     text-decoration: underline;
+    color: black;
+}
+.register-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 90vh;
+    width: 80vw;
+}
+.register-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(92, 96, 104, 0.51);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 100%;
+    width: 50%;
+    background-color:white;
+}
+.register-detail-left{
+    height: 80%;
+    width: 20rem;
+}
+.register-detail-left > h1{
+    color: black;
+}
+.register-pic{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(248, 198, 133);
 }
 .input-register{
-    font-size: medium;
-    width: 100%;
-    outline: 0ch;
-    border: 0ch;
-    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0px;
 }
- .button-submit{
+
+.input-email{
+    margin: 10px 0px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction:column;
+    height:3.4rem;
+    width: 20rem;
+    border-radius: 3px;
+}
+
+
+.input-email:hover{
+    border: 2px solid rgba(255, 136, 0, 0.628);
+    font-weight: bold;
+}
+
+ input{
+    margin-left: 5px;
+    outline: 0px;
+    text-decoration: none;
+    border: 0px;
+}
+.register-button{
+    margin:30px 0px;
     cursor: pointer;
     font-size:large;
-    background-color:#6fa3f2;
-    border-radius: 10px;
-    margin-top: 3px;
-    margin-bottom: 0%;
-    border: 0cm;
-    width: 50%;
-    height: 50px;
-    margin-left: 80px;
+    height: 3rem;
+    width: 20rem;
+    color: white;
+    background-color: rgb(248, 198, 133);
+    border-radius: 8px;
+    border: 0px;
 }
-.button-submit:hover{
+.register-button:hover{
     font-size: larger;
-    border: 3px solid;
-    border-color: aquamarine;
+    border: 1px solid black;
 }
-.main{
-    height: 100%;
+.register-pic{
+    color: white;
     display: flex;
-    flex-direction: row;
-    padding:5%;
-}
-.company{
-    height: 60px;
-    box-shadow: 3px 0px 15px 1px #69a6ec;
-    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    padding: 1px 20px;
-    font-family: 'Shadows Into Light', cursive;
 }
-.create{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    border-radius: 50px;
-    width: 40%;
+.register-quotes{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex:5;
+    height: 100%;
+    width: 70%;
 }
-.inputs{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.names{
-    font-size: smaller;
-    display: flex;
-    flex-direction: row;
-}
-.name{
-    width: 40%;
-    font-weight:bold;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color: antiquewhite;
-    padding: 10px;
-    margin: 2px;
-    border-radius: 20px;
-}
-.email{
-    font-size: smaller;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color: antiquewhite;
-    padding: 10px;
-    margin: 10px 0px;
-    border-radius: 20px;
-    width: 80%;
-}
-.quotes{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    border-radius: 50px;
-    padding: 20px;
-    width: auto;
-    display: flex;
-    flex:7;
-    justify-content:center;
-    align-items:flex-start;
-    flex-direction: column;
-    word-spacing: 8px;
-    line-height: 50px;
-    list-style:circle;
-}
-.heading-quotes{
-    color: rgb(254, 136, 136);
+.quotes-text{
+    font-size: larger;
+    line-height: 1.6;
 }

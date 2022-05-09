@@ -1,24 +1,25 @@
 .BuyItem{
-    width: 20%;
+    width: 22%;
     padding: 5px;
     height: 300px;
     border-radius: 20px;
-    background-color: rgb(187 224 231);
+    /* background-color:  #B8E4F0; */
+    border:1px solid black;
     margin: 10px;
     display: flex;
-    /* align-items: center; */
     flex-direction: column;
 
 
 }
 .BuyItem:hover{
-    filter: brightness(60%);
+    background-color:#B8E4F0 ;
     cursor: pointer;
 }
 
 .BuyItem img{
     width: 100%;
     border-radius: 20px;
+    padding:5px
 }
 .BuyItem h3{
     margin-top: 10px;

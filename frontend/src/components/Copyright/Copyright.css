@@ -1,0 +1,23 @@
+.bottom-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #B8E4F0;
+    padding: 20px;
+}
+.contact{
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.footer-link{
+    padding: 0 10%;
+    text-decoration: none;
+    color: white;
+}
+.copyright{ 
+    color: #EAF6F6;
+    font-weight: bold;
+}

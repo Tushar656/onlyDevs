@@ -6,7 +6,7 @@ export default function Login(){
         <div class="login-main">
             <div class="login-detail">
                 <div class="login-detail-left">
-                    <p class="signup-req">have a account? <a href="">Sign up</a></p>
+                    <p class="signup-req">didn't have a account? <a href="">Sign up</a></p>
                     <h1 class="login-heading">Welcome to oly</h1>
                     kindly Login with your Registered E-mail and password.
                     <div class="inputs-login">

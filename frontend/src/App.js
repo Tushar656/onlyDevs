@@ -2,18 +2,18 @@ import BuyItems from "./components/BuyItems/BuyItems";
 import Slider from "./components/Sliders/Slider";
 import Topbar from "./components/topbar/Topbar";
 import Register from "./Pages/Register/Register";
-import Login from "./Pages/Login/Login"
-
-function App() {
+import Login from "./Pages/Login/Login";
+import Copyright from "./components/Copyright/Copyright";
+import SingleBuying from "./Pages/SingleBuying/Singlebuying";
+import Home from "./Pages/Home/Home";
+export default function App() {
   return (
     <div className="App">
-      <Topbar/>
-      <Slider/>
-      <BuyItems/>
-      {/* <Register/>
-      <Login/> */}
+      {/* <Home/>
+      <SingleBuying/> */}
+      <Register/>
+      <Login/>
     </div>
   );
 }
 
-export default App;
