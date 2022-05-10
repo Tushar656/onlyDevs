@@ -1,3 +1,41 @@
 .SingleBuying{
     background-color: rgba(175, 175, 178, 0.51);
 }
+.selling-content{
+    display: flex;
+    flex-direction: column;
+}
+.product-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: row;
+}
+.product-name{
+    width: 60%;
+    padding: 25px;
+    margin:20px;
+    background-color: white;
+    border-radius: 4px;
+}
+.product-price{
+    width: 30%;
+    padding: 25px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 4px;
+}
+.btn-buy{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 2px;
+    color: white;
+    background-color: black;
+    height: 50%;
+    margin-top: 20px;
+
+}
+.btn-buy:hover{
+    color: black;
+    background-color: white;
+}

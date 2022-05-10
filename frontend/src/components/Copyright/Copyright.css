@@ -4,7 +4,10 @@
     display: flex;
     flex-direction: column;
     background-color: #B8E4F0;
-    padding: 20px;
+    padding:  10px;
+}
+.bottom-container p {
+    margin-bottom: 10px;
 }
 .contact{
     /* align-items: center; */
