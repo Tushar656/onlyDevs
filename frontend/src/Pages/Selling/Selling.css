@@ -1,0 +1,29 @@
+.Selling{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Selling_details{
+    border: 1px solid rgb(205, 203, 203);
+    width: 50vw;
+    /* height: 100vh; */
+    padding : 20px;
+    margin: 10px;
+}
+.Selling_details .normal{
+    border-radius: 3px;
+    border: 1px solid rgb(202, 200, 200);
+    margin: 0px;
+    width: 25vw;
+    height: 6vh;
+    margin-bottom: 30px;
+}
+.Disc{
+    border-radius: 3px;
+    border: 1px solid rgb(202, 200, 200);
+    margin: 0px;
+    width: 25vw;
+    height: 10vh;
+    margin-bottom: 30px;
+}

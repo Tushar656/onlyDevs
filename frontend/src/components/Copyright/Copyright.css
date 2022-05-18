@@ -5,6 +5,7 @@
     flex-direction: column;
     background-color: #B8E4F0;
     padding:  10px;
+    width: 100vw;
 }
 .bottom-container p {
     margin-bottom: 10px;

@@ -6,13 +6,15 @@ import Login from "./Pages/Login/Login";
 import Copyright from "./components/Copyright/Copyright";
 import SingleBuying from "./Pages/SingleBuying/Singlebuying";
 import Home from "./Pages/Home/Home";
+import Selling from "./Pages/Selling/Selling";
 export default function App() {
   return (
     <div className="App">
-      {/* <Home/> */}
-      <SingleBuying/>
-      {/* <Register/>
+      {/* <Home/>
+      <SingleBuying/> 
+      <Register/>
       <Login/> */}
+      <Selling />
     </div>
   );
 }
