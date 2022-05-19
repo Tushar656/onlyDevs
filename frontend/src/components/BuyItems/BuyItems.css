@@ -5,3 +5,10 @@
     margin-top: 30px;
     flex-wrap: wrap;
 }
+
+.buyitmLink{
+    color: inherit;
+    text-decoration: none;
+    width: 22%;
+    margin-left: 10px;
+}

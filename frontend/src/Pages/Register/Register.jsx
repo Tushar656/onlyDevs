@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Register.css"
+import { Link } from 'react-router-dom'
 export default function Register() {
   return (
     <div className='Register'>
@@ -7,7 +8,7 @@ export default function Register() {
     <div class="register-main">
             <div class="register-detail">
                 <div class="register-detail-left">
-                    <p class="signup-req">have a account?<a href="">Sign in</a></p>
+                    <p class="signup-req">have a account?<Link to={'/login'}>Sign in</Link></p>
                     <h1 class="register-heading">Welcome to oly</h1>
                     kindly fill the details to register your account.
                     <div class="input-register">
