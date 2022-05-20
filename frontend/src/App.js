@@ -14,7 +14,7 @@ import {
 } from "react-router-dom";
 
 export default function App() {
-  let user = false;
+  let user = localStorage.getItem('olyname');
   return (
     <div className="App">
       <Router>
