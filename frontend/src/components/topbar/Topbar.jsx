@@ -6,6 +6,10 @@ import AddIcon from '@mui/icons-material/Add';
 import { Link } from 'react-router-dom';
 
 export default function Topbar() {
+    const logoutHendler = () =>{
+        localStorage.removeItem('olyname');
+        window.location.reload();
+    }
   return (
     <div className='topbar'>
         <div className="leftTop">
@@ -18,9 +22,12 @@ export default function Topbar() {
             </div>
         </div>
         <div className="rightTop">
-            <Link to={'/login'}>
-                <button className="TopLoginBtn">Login</button>
-            </Link>
+            {localStorage.getItem('olyname') ? 
+                <button className="TopLoginBtn" onClick={logoutHendler}>Logout</button> : 
+                <Link to={'/login'}>
+                    <button className="TopLoginBtn">Login</button>
+                </Link>
+            }
             <Link to={'/sell'} style={{textDecoration:'none', color: 'inherit'}}>
                 <button className="TopSellBtn">
                     <AddIcon/>

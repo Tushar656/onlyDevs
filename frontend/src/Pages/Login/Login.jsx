@@ -14,7 +14,7 @@ export default function Login(){
                 email: emailref.current.value,
                 password: passwordref.current.value,
             })
-            localStorage.setItem('olyname', [res.data.username , res.data.password]);
+            localStorage.setItem('olyname', res.data.username);
             window.location.replace('/sell');
             // localStorage.setItem('olypass', res.data.password);
             console.log(res.data);
@@ -24,29 +24,29 @@ export default function Login(){
     }
 
     return (
-        <div class="login">
-            <div class="login-main">
-                <div class="login-detail">
-                    <div class="login-detail-left">
-                        <p class="signup-req">didn't have a account? <Link to={'/register'}>Sign up</Link></p>
-                        <h1 class="login-heading">Welcome to oly</h1>
+        <div className="login">
+            <div className="login-main">
+                <div className="login-detail">
+                    <div className="login-detail-left">
+                        <p className="signup-req">didn't have a account? <Link to={'/register'}>Sign up</Link></p>
+                        <h1 className="login-heading">Welcome to oly</h1>
                         kindly Login with your Registered E-mail and password.
-                        <div class="inputs-login">
-                            <div class="input-email">
+                        <div className="inputs-login">
+                            <div className="input-email">
                                 E-mail
                                 <input type="text" ref={emailref} />
                             </div>
-                            <div class="input-email">
+                            <div className="input-email">
                                 Password
                                 <input type="password" ref={passwordref} />
                             </div>
-                            <button type="submit" class="login-button" onClick={loginHendler}>
+                            <button type="submit" className="login-button" onClick={loginHendler}>
                                 Submit
                             </button>
                         </div>
                     </div>
                 </div>
-                <div class="login-pic">
+                <div className="login-pic">
                     <div className="login-quotes">
                         <h1>Easy Buy and Sell!</h1>
                         <p className="quotes-text">"The wisest rule in investment is: when others are selling, buy. When others are buying, sell."</p>

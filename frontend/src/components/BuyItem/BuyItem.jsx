@@ -1,12 +1,13 @@
 import React from 'react'
 import "./BuyItem.css"
 
-export default function BuyItem() {
+export default function BuyItem(fulldata) {
+  // console.log(fulldata.fulldata);
   return (
     <div className='BuyItem'>
-        <img src="/Assets/books.jpg" alt="" />
-        <h3 className="price">$102</h3>
-        <div className="itemDesc">Lorem ipsum dolor sit amet.</div>
+        <img src={`http://localhost:8000/images/${fulldata.fulldata.img}`} alt="" />
+        <h3 className="price">{`$${fulldata.fulldata.price}`}</h3>
+        <div className="itemDesc">{fulldata.fulldata.desc}</div>
     </div>
   )
 }

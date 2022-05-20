@@ -10,8 +10,8 @@ router.post('/', async(req, res)=>{
         const savedProduct = await newProduct.save();
         res.status(201).send(savedProduct);
     }catch(err){
-        // res.status(500).send(err);
-        res.status(500).send("Create product error");
+        res.status(500).send(err);
+        // res.status(500).send("Create product error");
     }
 })
 

@@ -26,6 +26,29 @@ app.use('/api/product', productRoute);
 app.use('/api/user', userRoute);
 
 
+const multer = require('multer');
+const path = require('path')
+const storage = multer.diskStorage({
+    destination: (req, file, cb)=>{
+        cb(null, "public/images")
+    },
+    filename: (req, file, cb)=>{
+        cb(null, req.body.name)
+    }
+})
+
+app.use('/images', express.static(path.join(__dirname, "public/images")))
+
+const upload = multer({storage});
+app.post('/api/upload',upload.single("file"), (req, res)=>{
+    try{
+        return res.status(200).send("File upload successfully")
+    }catch(err){
+        console.log("Uploading error");
+    }
+})
+
+
  app.listen(8000,()=>{
      console.log("run at port 8000");
  })
